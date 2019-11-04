@@ -23,7 +23,8 @@ export
     integerfeasibility,
     rationalapprox,
     hardsphere, hard_sphere,
-    issizereduced,islllreduced,orthogonalitydefect,hermitefactor,seysencond
+    issizereduced,islllreduced,orthogonalitydefect,hermitefactor,seysencond,
+    gen_qary_b
 
 include("lll.jl")          # lll, gauss, sizereduction
 include("cvp.jl")          # cvp, svp
@@ -32,6 +33,7 @@ include("seysen.jl")
 include("vblast.jl")
 include("applications.jl") # subsetsum, integerfeasibility, rationalapprox
 include("utilities.jl")
+include("latticegen.jl")
 
 include("hard_sphere.jl")  # may be deprecated in future
 
